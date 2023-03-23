@@ -17,7 +17,7 @@ Ahora fíjate en el **test.js**. Hay un test ya implementado (el primero), que e
 
 `["David"]`
 
-Ejecutar `npm test` para comprobar que ese test pasa.
+Ejecutar `npm test` para comprobar que ese test pasa. Esto debes hacerlo **cada vez** que compeltas un test y este pasa exitosamente.
 
 Completa uno a uno todos los tests. En principio solo debes de cambiar la o las líneas de la instrucción `expect`.
 
