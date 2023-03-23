@@ -1,0 +1,24 @@
+# Ignore everything
+node_modules
+package-lock.json
+package.json
+
+!.gitignore
+!.gitpod.yml
+!.gitpod.Dockerfile
+!bc.json
+!learn.json
+!README.md
+!README.es.md
+
+!/exercises
+!/exercises/*
+
+!/.learn
+/.learn/**
+!/.learn/resets
+!/.learn/resets/**
+!/.learn/assets
+!/.learn/assets/**
+!/.learn/exercises
+!/.learn/exercises/**
