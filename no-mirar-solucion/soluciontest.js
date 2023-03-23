@@ -42,7 +42,7 @@ test("Solo debería devolver el usuario Pedro", function () {
 
 
     // TODO : completa el expect
-    expect(false).toBe(true);
+    expect(whoIsOnline(users)).toContain('Pedro');
 });
 
 // Implementa otro test 
@@ -71,8 +71,8 @@ test("Deberia devolver los usuarios de Pedro y Alex", function () {
 
 
     // TODO : completa los DOS expect
-    expect(false).toBe(true);
-    expect(false).toBe(true);
+    expect(whoIsOnline(users)).toContain('Pedro');
+    expect(whoIsOnline(users)).toContain('Alex');
 
 });
 
@@ -101,8 +101,8 @@ test("No debería devolver ningún usuario, es decir, debería devolver un array
     ];
 
 
-    // TODO : completa el expect. Debes buscar como comprobar con Jest si un array no tiene elementos!
-    expect(false).toBe(true);
+    // TODO : completa el expect
+    expect(whoIsOnline(users)).toHaveLength(0);
 });
 
 // Implementa otro test. CUIDADO! Puede que encuentres un bug en la función que debas arreglar ;)
@@ -126,7 +126,7 @@ test("Solamente debería devolver a 'Alex'.", function () {
 
 
     // TODO : completa el expect
-    expect(false).toBe(true);
+    expect(whoIsOnline(users)).toContain('Alex');
 });
 
 

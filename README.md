@@ -22,4 +22,8 @@ Completa uno a uno todos los tests. En principio solo debes de cambiar la o las 
 
 Sigue rigurosamente el orden de los tests para entender la importancia del testing en tus apps!
 
+### Solución
+
+Existe una carpeta con la solución al ejercicio.
+
 
