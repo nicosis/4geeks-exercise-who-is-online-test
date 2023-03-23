@@ -19,7 +19,7 @@ Ahora fíjate en el **test.js**. Hay un test ya implementado (el primero), que e
 
 Ejecutar `npm test` para comprobar que ese test pasa. Esto debes hacerlo **cada vez** que completas un test y este pasa exitosamente.
 
-Completa uno a uno todos los tests. En principio solo debes de cambiar la o las líneas de la instrucción `expect`.
+Completa uno a uno todos los tests modificando el fichero **test.js**. En principio solo debes de cambiar la o las líneas de la instrucción `expect`.
 
 ¡Sigue rigurosamente el orden de los tests para entender la importancia del testing en tus apps!
 
