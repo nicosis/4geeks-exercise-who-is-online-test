@@ -5,7 +5,7 @@ Importante! Aseguraos de haber leido la lectura del módulo antes de hacer el ej
 ## Cómo ejecutar los tests
 
 0. Fork este repo. Luego abre este repositorio con GitPod
-1. Instalar todas las dependencias, una sola vez `npm install`
+1. Instalar todas las dependencias, una sola vez `npm install jest`
 2. Ejecutar los tests
 `npm test`
 
